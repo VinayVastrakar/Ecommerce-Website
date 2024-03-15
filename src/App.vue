@@ -55,7 +55,9 @@ table{
 
 
 
-
+ul{
+  display: grid;
+}
 
 
 
@@ -70,10 +72,13 @@ table{
 .product-item {
     margin-bottom: 20px;
     padding: 20px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    background-color: #f9f9f9;
+    border: 1px solid #ebebeb;
+    border-radius: 50px;
+    background-color: #edeef0;
     list-style-type: none;
+}
+.product-item:hover{
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
 
 /* Style for product name */
@@ -97,6 +102,7 @@ table{
     max-width: 100%;
     height: auto;
     margin-bottom: 10px;
+    border-radius: 50px;
 }
 
 /* Style for the "Add to Cart" button */
