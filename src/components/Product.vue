@@ -20,11 +20,13 @@
       </li>
     </ul>
   </div>
+  <Footer/>
 </template>
 
 <script>
 import axios from "axios";
 import Header from "./Header.vue";
+import Footer from "./Footer.vue";
 
 export default {
   name: "ProductPage",
@@ -36,6 +38,7 @@ export default {
   },
   components: {
     Header,
+    Footer,
   },
   methods: {
     async addToOrder(id) {

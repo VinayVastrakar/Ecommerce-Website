@@ -28,6 +28,7 @@
     style="height:170px"/>
     <button type="button" v-on:click="addContact">Send Message</button>
   </form>
+  <Footer/>
 </template>
 
 <script>

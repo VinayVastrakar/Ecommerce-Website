@@ -131,7 +131,7 @@ td {
   cursor: pointer;
 }
 .remove-btn:hover{
-  box-shadow: 0 0 10px rgba(37, 5, 5, 0.3);
+  box-shadow: 0 0 15px rgba(37, 5, 5, 0.3);
 }
 
 </style>

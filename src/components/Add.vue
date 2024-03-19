@@ -29,16 +29,20 @@
     />
     <button type="button" v-on:click="addProduct">Add Product</button>
   </form>
+  <br>
+  <Footer/>
 </template>
 
 <script>
 import Header from './Header.vue';
+import Footer from './Footer.vue';
 import axios from 'axios';
 
 export default {
   name: "AddPro",
   components:{
-    Header
+    Header,
+    Footer
   },
   data(){
     return{
