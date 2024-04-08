@@ -28,17 +28,20 @@
     style="height:170px"/>
     <button type="button" v-on:click="addContact">Send Message</button>
   </form>
+  <br> 
   <Footer/>
 </template>
 
 <script>
 import Header from './Header.vue';
+import Footer from './Footer.vue'
 import axios from 'axios';
 
 export default {
   name: "ContactUs",
   components:{
-    Header
+    Header,
+    Footer,
   },
   data(){
     return{

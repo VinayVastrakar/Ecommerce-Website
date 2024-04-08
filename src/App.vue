@@ -104,8 +104,15 @@ ul{
     max-width: 100%;
     height: auto;
     margin-bottom: 10px;
-    border-radius: 50px;
+    border-radius: 37% 0% 33% 0% / 37% 24% 38% 24%;
+    transition: transform 0.2s;
 }
+
+.product-image:hover{
+  /* border:1px solid black; */
+  transform: scale(1.03);
+}
+
 
 /* Style for the "Add to Cart" button */
 .add-to-cart-btn {

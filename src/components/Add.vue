@@ -42,7 +42,7 @@ export default {
   name: "AddPro",
   components:{
     Header,
-    Footer
+    Footer,
   },
   data(){
     return{
